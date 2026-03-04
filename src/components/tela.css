@@ -1,0 +1,37 @@
+.tela {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secao {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto {
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.topo {
+  background-image: url("../imgs/sol.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.meio {
+  background-color: #f4f4f4;
+  flex-direction: column;
+}
+
+.baixo {
+  background-image: url("../imgs/lua.jpg");
+  background-size: cover;
+  background-position: center;
+}
